@@ -27,6 +27,7 @@ function returnVowels(str) {
     }   
 }
 
+
 challengeBanner('returnVowels');
 returnVowels('Regular expressions are for term 2');
 
@@ -57,12 +58,12 @@ function returnFirst5Vowels(str) {
         }
     }   
 }
-
 challengeBanner('returnFirst5Vowels');
 returnFirst5Vowels('Regular expressions are for term 2');
 
 
-// Challenge 3
+// // Challenge 3
+
 function returnEveryThirdChar(str){
     let i = 2
     let currentChar = str[i]
@@ -145,7 +146,7 @@ function printIndexOfFirstU(str){
     while (i < str.length) {
         if (currentChar === 'u') {
             console.log(i)
-            i = str.length
+            i = str.length // I just create a condition so that the loops stops. Not the best but it works
         } else {
             i ++
             currentChar = str[i]
